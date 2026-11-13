@@ -16,3 +16,8 @@ Route::get('/about',function(){
 Route::get('/contact',function(){
     return view('contact-us');
 });
+
+
+Route::get('/user/{name}', function($name){
+    return "welcome {$name}";
+});
