@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -20,4 +21,6 @@ Route::get('/contact',function(){
 
 Route::get('/user/{name}', function($name){
     return "welcome {$name}";
-});
+});  
+
+Route::get('/index',[UserController::class, 'index']);
