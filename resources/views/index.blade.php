@@ -8,5 +8,6 @@
 <body>
     <h1>welcome, {{$name}}!</h1>
     <p>Age is {{$age}}</p>
+    <h5>course: {{$course}}</h5>
 </body>
 </html>
