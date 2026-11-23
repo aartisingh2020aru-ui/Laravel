@@ -6,6 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>welcome to the club!!</h1>
+    <h1>welcome, {{$name}}!</h1>
+    <p>Age is {{$age}}</p>
 </body>
 </html>
